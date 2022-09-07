@@ -7,8 +7,10 @@
 }
 
 body {
-    /*rimuovere*/
+    /*rimuovere colore*/
     background-color: lightgrey;
+    margin-top: 100px;
+
 }
 
 .debug {
@@ -23,6 +25,8 @@ body {
     --white: #fff;
     --orange: #ff6900;
     --black: #1a1a1a;
+    --red: red;
+    --green: green;
 }
 
 .container {
@@ -60,4 +64,90 @@ header img {
     box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
     background-color: var(--orange);
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.relative {
+    position: relative;
+}
+
+/* main */
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.row-flex {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.row-flex {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.col {
+    width: calc(100% / 3);
+    position: relative;
+    cursor: pointer;
+}
+
+.col img {
+    width: 100%;
+}
+
+.margin {
+    margin: 0 20px;
+}
+
+.label {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    min-width: 40px;
+    padding: 3px;
+    text-align: center;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.disc {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px;
+}
+
+.sos {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 5px;
+}
+
+.heart:hover {
+    color: var(--red);
+}
+
+.second {
+    display: none;
+}
+
+.col:hover .second {
+    display: inline-block;
+}
+
+.col:hover .first {
+    display: none;
 }

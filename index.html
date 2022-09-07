@@ -19,33 +19,96 @@
 <body>
     <!-- header : nav fixed -->
     <header>
-        <div class="fixed">
-            <nav class="container flexbar">
-                <ul class="list-navbar flexbar">
-                    <li><a href="#">Donna</a></li>
-                    <li><a href="#">Uomo</a></li>
-                    <li><a href="#">Bambini</a></li>
-                </ul>
-                <img src="./img/boolean-logo.png" alt="logo">
-                <ul class="list-navbar flexbar">
-                    <li><a href="#"></a><i class="fa-regular fa-user"></i></li>
-                    <li><a href="#"></a><i class="fa-regular fa-heart"></i></li>
-                    <li><a href="#"></a><i class="fa-solid fa-basket-shopping"></i></li>
-                </ul>
-            </nav>
+        <div class="relative">
+            <div class="fixed">
+                <nav class="container flexbar">
+                    <ul class="list-navbar flexbar">
+                        <li><a href="#">Donna</a></li>
+                        <li><a href="#">Uomo</a></li>
+                        <li><a href="#">Bambini</a></li>
+                    </ul>
+                    <img src="./img/boolean-logo.png" alt="logo">
+                    <ul class="list-navbar flexbar">
+                        <li><a href="#"></a><i class="fa-regular fa-user"></i></li>
+                        <li><a href="#"></a><i class="fa-regular fa-heart"></i></li>
+                        <li><a href="#"></a><i class="fa-solid fa-basket-shopping"></i></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
+
     <!-- main: sezioni shop -->
     <main class="container">
+
+        <!-- prima sezione -->
         <section class="row-flex">
+
             <!-- prima colonna -->
             <div class="col">
                 <span class="heart">&hearts;</span>
                 <img src="./img/1.webp" alt="completo1" class="first">
                 <img src="./img/1b.webp" alt="completo2" class="second">
-                <span class="label disc30">-30%</span>
+                <div class="label">
+                    <span class="disc">-50%</span>
+                    <span class="sos">Sostenibilità</span>
+                </div>
             </div>
 
+            <!-- seconda colonna -->
+            <div class="col margin">
+                <span class="heart">&hearts;</span>
+                <img src="./img/2.webp" alt="completo1" class="first">
+                <img src="./img/2b.webp" alt="completo2" class="second">
+                <div class="label">
+                    <span class="disc">-30%</span>
+                </div>
+            </div>
+
+            <!-- terza colonna -->
+            <div class="col">
+                <span class="heart">&hearts;</span>
+                <img src="./img/3.webp" alt="completo1" class="first">
+                <img src="./img/3b.webp" alt="completo2" class="second">
+                <div class="label">
+                    <span class="disc">-30%</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- seconda sezione -->
+        <section class="row-flex">
+
+            <!-- prima colonna -->
+            <div class="col">
+                <span class="heart">&hearts;</span>
+                <img src="./img/4.webp" alt="completo1" class="first">
+                <img src="./img/4b.webp" alt="completo2" class="second">
+                <div class="label">
+                    <span class="disc">-50%</span>
+                    <span class="sos">Sostenibilità</span>
+                </div>
+            </div>
+
+            <!-- seconda colonna -->
+            <div class="col margin">
+                <span class="heart">&hearts;</span>
+                <img src="./img/5.webp" alt="completo1" class="first">
+                <img src="./img/5b.webp" alt="completo2" class="second">
+                <div class="label">
+                    <!-- SPAZIO PER EVENTUALE SCONTISTICA -->
+                </div>
+            </div>
+
+            <!-- terza colonna -->
+            <div class="col">
+                <span class="heart">&hearts;</span>
+                <img src="./img/6.webp" alt="completo1" class="first">
+                <img src="./img/6b.webp" alt="completo2" class="second">
+                <div class="label">
+                    <span class="sos">Sostenibilità</span>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
