@@ -110,7 +110,7 @@ main {
 .label {
     position: absolute;
     left: 0px;
-    bottom: 50px;
+    bottom: 100px;
     min-width: 40px;
     padding: 3px;
     text-align: center;
@@ -152,6 +152,25 @@ main {
 
 .col:hover .first {
     display: none;
+}
+
+.text-brand {
+    display: block;
+}
+
+.text-model {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price-red {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.price-line {
+    text-decoration: line-through;
 }
 
 /* footer */
