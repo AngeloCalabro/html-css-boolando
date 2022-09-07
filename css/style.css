@@ -180,3 +180,7 @@ footer {
     color: var(--white);
     padding: 20px 0;
 }
+
+.footer-bar-right {
+    font-size: 20px;
+}
