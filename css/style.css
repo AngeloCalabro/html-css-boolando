@@ -3,4 +3,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /*rimuovere*/
+    background-color: lightgrey;
+}
+
+.debug {
+    /*rimuovere*/
+    border: 1 solid black;
+    min-height: 450px;
+}
+
+/* general */
+
+:root {
+    --white: #fff;
+    --orange: #ff6900;
+    --black: #1a1a1a;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+ul.list-navbar {
+    color: var(--white);
+    list-style: none;
+}
+
+ul.list-navbar li {
+    padding: 0 5px;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+header img {
+    height: 30px;
+}
+
+.flexbar {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed {
+    box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
+    background-color: var(--orange);
+    padding: 20px 0;
 }
