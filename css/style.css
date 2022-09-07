@@ -35,18 +35,20 @@ body {
 }
 
 /* header */
-ul.list-navbar {
+ul {
     color: var(--white);
     list-style: none;
 }
 
-ul.list-navbar li {
-    padding: 0 5px;
+li,
+ul {
+    padding: 5px 0;
 }
 
 a {
     color: var(--white);
     text-decoration: none;
+    padding-right: 10px;
 }
 
 header img {
@@ -150,4 +152,11 @@ main {
 
 .col:hover .first {
     display: none;
+}
+
+/* footer */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px 0;
 }
