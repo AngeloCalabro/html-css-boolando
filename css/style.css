@@ -79,13 +79,7 @@ header img {
 
 /* main */
 main {
-    width: 80%;
     margin: 40px auto;
-}
-
-.row-flex {
-    display: flex;
-    margin-bottom: 40px;
 }
 
 .row-flex {
